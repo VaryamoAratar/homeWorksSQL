@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2024-05-10T12:32:55.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="e7o5Jqu4y6yqt54WQN8M" version="24.3.1" type="device">
+  <diagram name="Страница — 1" id="lue5_StuoyJOfcnPu34V">
+    <mxGraphModel dx="1105" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-3" target="VMsKzSHPn3IFW-tLMVId-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-3" value="Музыкальный жанр" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-12" value="ID жанра" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-13" value="Название жанра" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-14" target="VMsKzSHPn3IFW-tLMVId-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-14" value="Исполнители" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-15" target="VMsKzSHPn3IFW-tLMVId-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="200" />
+              <mxPoint x="115" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-15" value="ID жанра" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-16" value="Имя исполнителя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-17" value="ID исполнителя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-18" target="VMsKzSHPn3IFW-tLMVId-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-18" value="Альбомы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-19" value="Год выпуска" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-20" target="VMsKzSHPn3IFW-tLMVId-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="340" />
+              <mxPoint x="130" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-20" value="ID исполнителя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-21" value="ID альбома" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-22" target="VMsKzSHPn3IFW-tLMVId-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-22" value="Треки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-23" value="Длительность" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-24" target="VMsKzSHPn3IFW-tLMVId-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="480" />
+              <mxPoint x="130" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-24" value="ID альбома" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-25" value="ID трека" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-26" target="VMsKzSHPn3IFW-tLMVId-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-26" value="Список исполнителей" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-27" target="VMsKzSHPn3IFW-tLMVId-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-27" value="Список альбомов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="VMsKzSHPn3IFW-tLMVId-28" target="VMsKzSHPn3IFW-tLMVId-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VMsKzSHPn3IFW-tLMVId-28" value="Список треков" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
