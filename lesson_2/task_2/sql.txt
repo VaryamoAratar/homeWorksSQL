@@ -1,0 +1,22 @@
+create table if not exists department(
+id SERIAL primary key,
+department_name VARCHAR(50)
+);
+
+create table if not exists worker(
+id SERIAL primary key,
+first_name VARCHAR(50) NOT NULL,
+last_name VARCHAR(70) NOT NULL
+);
+
+create table if not exists superior(
+id INTEGER not null unique references worker(id),
+is_superior BOOLEAN check (is_superior = TRUE)
+);
+
+create table if not exists summary(
+id_worker INTEGER not null references worker(id),
+id_department INTEGER not null references department(id),
+id_superior INTEGER references superior(id)
+);
+
