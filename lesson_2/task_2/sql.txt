@@ -10,7 +10,7 @@ last_name VARCHAR(70) NOT NULL
 );
 
 create table if not exists superior(
-id INTEGER not null unique references worker(id),
+id INTEGER not null unique references worker(id) on delete set null,
 is_superior BOOLEAN check (is_superior = TRUE)
 );
 
