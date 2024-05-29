@@ -6,7 +6,7 @@ name VARCHAR(60) not null
 create table if not exists musician(
 musician_id SERIAL primary key,
 first_name VARCHAR(60) not null,
-last_name VARCHAR(60) not null
+last_name VARCHAR(60) null
 );
 
 create table if not exists musician_genre(

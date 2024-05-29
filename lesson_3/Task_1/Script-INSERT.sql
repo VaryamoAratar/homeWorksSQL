@@ -1,97 +1,97 @@
 -- альбомы
 INSERT INTO "homeWork".album
-(album_id, album_name, album_date)
-VALUES(1, 'Охота на лисицу', '2021-01-01');
+(album_name, album_date)
+VALUES('Охота на лисицу', '2021-01-01');
 INSERT INTO "homeWork".album
-(album_id, album_name, album_date)
-VALUES(2, 'Первое свидание', '2020-01-01');
+(album_name, album_date)
+VALUES('Первое свидание', '2020-01-01');
 INSERT INTO "homeWork".album
-(album_id, album_name, album_date)
-VALUES(3, 'Отпусти и забудь', '2021-01-01');
+(album_name, album_date)
+VALUES('Отпусти и забудь', '2021-01-01');
 INSERT INTO "homeWork".album
-(album_id, album_name, album_date)
-VALUES(4, 'Актриса весна', '1992-01-01');
+(album_name, album_date)
+VALUES('Актриса весна', '1992-01-01');
 INSERT INTO "homeWork".album
-(album_id, album_name, album_date)
-VALUES(5, 'Brand New Day', '1999-09-24');
+(album_name, album_date)
+VALUES('Brand New Day', '1999-09-24');
 INSERT INTO "homeWork".album
-(album_id, album_name, album_date)
-VALUES(6, 'Реверсивная хроника событий', '2004-01-01');
+(album_name, album_date)
+VALUES('Реверсивная хроника событий', '2004-01-01');
 INSERT INTO "homeWork".album
-(album_id, album_name, album_date)
-VALUES(7, 'Дорога сна', '2003-01-01');
+(album_name, album_date)
+VALUES('Дорога сна', '2003-01-01');
 INSERT INTO "homeWork".album
-(album_id, album_name, album_date)
-VALUES(8, 'Thriller', '1982-01-01');
+(album_name, album_date)
+VALUES('Thriller', '1982-01-01');
 
 -- музыкантов
 INSERT INTO "homeWork".musician
-(musician_id, first_name, last_name)
-VALUES(1, 'Sting', NULL);
+(first_name)
+VALUES('Sting');
 INSERT INTO "homeWork".musician
-(musician_id, first_name, last_name)
-VALUES(2, 'Юрий', 'Шевчук');
+(first_name, last_name)
+VALUES('Юрий', 'Шевчук');
 INSERT INTO "homeWork".musician
-(musician_id, first_name, last_name)
-VALUES(3, 'Наталья', 'О'' Шей');
+(first_name, last_name)
+VALUES('Наталья', 'О'' Шей');
 INSERT INTO "homeWork".musician
-(musician_id, first_name, last_name)
-VALUES(4, 'Michael', 'Jackson');
+(first_name, last_name)
+VALUES('Michael', 'Jackson');
 INSERT INTO "homeWork".musician
-(musician_id, first_name, last_name)
-VALUES(5, 'Алёна', 'Швец');
+(first_name, last_name)
+VALUES('Алёна', 'Швец');
 INSERT INTO "homeWork".musician
-(musician_id, first_name, last_name)
-VALUES(6, 'Сплин', NULL);
+(first_name)
+VALUES('Сплин');
 INSERT INTO "homeWork".musician
-(musician_id, first_name, last_name)
-VALUES(7, 'Михаил', 'Егоров');
+(first_name, last_name)
+VALUES('Михаил', 'Егоров');
 INSERT INTO "homeWork".musician
-(musician_id, first_name, last_name)
-VALUES(8, 'Green', 'Apelsin');
+(first_name, last_name)
+VALUES('Green', 'Apelsin');
 
 -- жанры
 INSERT INTO "homeWork".genre_of_music
-(genre_id, "name")
-VALUES(1, 'Фанк');
+("name")
+VALUES('Фанк');
 INSERT INTO "homeWork".genre_of_music
-(genre_id, "name")
-VALUES(2, 'Инди-поп');
+("name")
+VALUES('Инди-поп');
 INSERT INTO "homeWork".genre_of_music
-(genre_id, "name")
-VALUES(3, 'Авторская песня');
+("name")
+VALUES('Авторская песня');
 INSERT INTO "homeWork".genre_of_music
-(genre_id, "name")
-VALUES(4, 'Фолк-рок');
+("name")
+VALUES('Фолк-рок');
 INSERT INTO "homeWork".genre_of_music
-(genre_id, "name")
-VALUES(5, 'Поп');
+("name")
+VALUES('Поп');
 INSERT INTO "homeWork".genre_of_music
-(genre_id, "name")
-VALUES(6, 'Рок');
+("name")
+VALUES('Рок');
 INSERT INTO "homeWork".genre_of_music
-(genre_id, "name")
-VALUES(7, 'Соул');
+("name")
+VALUES('Соул');
 INSERT INTO "homeWork".genre_of_music
-(genre_id, "name")
-VALUES(8, 'R&B');
+("name")
+VALUES('R&B');
 INSERT INTO "homeWork".genre_of_music
-(genre_id, "name")
-VALUES(9, 'Русский рок');
+("name")
+VALUES('Русский рок');
 
 -- Сборники
 INSERT INTO "homeWork".collection
-(collection_id, collection_name, collection_date)
-VALUES(1, '25 Year', '2019-01-01');
+(collection_name, collection_date)
+VALUES('25 Year', '2019-01-01');
 INSERT INTO "homeWork".collection
-(collection_id, collection_name, collection_date)
-VALUES(2, 'The best', '2007-01-01');
+(collection_name, collection_date)
+VALUES('The best', '2007-01-01');
 INSERT INTO "homeWork".collection
-(collection_id, collection_name, collection_date)
-VALUES(3, '2.0', '2019-01-01');
+(collection_name, collection_date)
+VALUES('2.0', '2019-01-01');
 INSERT INTO "homeWork".collection
-(collection_id, collection_name, collection_date)
-VALUES(4, 'Popular classics', '2021-01-01');
+(collection_name, collection_date)
+VALUES('Popular classics', '2021-01-01');
 
 -- Жанры музыкантов
 INSERT INTO "homeWork".musician_genre
@@ -191,17 +191,20 @@ VALUES('На север', 4, 7, '03:32:00');
 INSERT INTO "homeWork".track
 (track_name, track_genre, album, lenght_track)
 VALUES('Billie Jean', 5, 8, '04:53:00');
+INSERT INTO "homeWork".track
+(track_name, track_genre, album, lenght_track)
+VALUES('The Lady in My Life', 5, 8, '05:00:00');
 
 -- Треки в сборник
 INSERT INTO "homeWork".collectiontracks
 (track_id, collection_id)
-VALUES(19, 4);
+VALUES(10, 4);
 INSERT INTO "homeWork".collectiontracks
 (track_id, collection_id)
-VALUES(18, 2);
+VALUES(9, 2);
 INSERT INTO "homeWork".collectiontracks
 (track_id, collection_id)
-VALUES(18, 3);
+VALUES(9, 3);
 INSERT INTO "homeWork".collectiontracks
 (track_id, collection_id)
-VALUES(16, 1);
+VALUES(7, 1);

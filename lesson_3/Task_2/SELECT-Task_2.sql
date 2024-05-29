@@ -16,4 +16,5 @@ where last_name is null;
 
 select track_name 
 from track
-where track_name like '%my%' or track_name like '%мой%';
+where (track_name like '%my%' or track_name like '%мой%') 
+	or (track_name like '%My%' or track_name like '%Мой%');
