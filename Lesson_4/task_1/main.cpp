@@ -138,8 +138,8 @@ private:
 int main()
 {
 	//setlocale(LC_ALL, "rus");
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
+	/*SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);*/
 	setvbuf(stdout, nullptr, _IOFBF, 1000);
 
 	try
