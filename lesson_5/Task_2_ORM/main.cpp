@@ -124,15 +124,15 @@ int main()
 		Wt::Dbo::ptr<Publisher> dbPubl2 = session.add<Publisher>(move(publisher2));
 		Wt::Dbo::ptr<Publisher> dbPubl3 = session.add<Publisher>(move(unique_ptr <Publisher>(new Publisher{ "Samizdat" })));
 
-		auto book1 = unique_ptr <Book>(new Book{ "Остров мертвых", dbPubl1 });
-		auto book2 = unique_ptr <Book>(new Book{ "Девять принцев Амбера", dbPubl1 });
-		auto book3 = unique_ptr <Book>(new Book{ "Ружья Авалона", dbPubl1 });
-		auto book4 = unique_ptr <Book>(new Book{ "Бемби", dbPubl2 });
-		auto book5 = unique_ptr <Book>(new Book{ "Князь Серебряный", dbPubl2 });
-		auto book6 = unique_ptr <Book>(new Book{ "Вид с холма", dbPubl2 });
-		auto book7 = unique_ptr <Book>(new Book{ "ТРИНИТРОТОЛУОЛ", dbPubl3 });
-		auto book8 = unique_ptr <Book>(new Book{ "Он", dbPubl3 });
-		auto book9 = unique_ptr <Book>(new Book{ "Орбис", dbPubl3 });
+		auto book1 = unique_ptr <Book>(new Book{ "РћСЃС‚СЂРѕРІ РјРµСЂС‚РІС‹С…", dbPubl1 });
+		auto book2 = unique_ptr <Book>(new Book{ "Р”РµРІСЏС‚СЊ РїСЂРёРЅС†РµРІ РђРјР±РµСЂР°", dbPubl1 });
+		auto book3 = unique_ptr <Book>(new Book{ "Р СѓР¶СЊСЏ РђРІР°Р»РѕРЅР°", dbPubl1 });
+		auto book4 = unique_ptr <Book>(new Book{ "Р‘РµРјР±Рё", dbPubl2 });
+		auto book5 = unique_ptr <Book>(new Book{ "РљРЅСЏР·СЊ РЎРµСЂРµР±СЂСЏРЅС‹Р№", dbPubl2 });
+		auto book6 = unique_ptr <Book>(new Book{ "Р’РёРґ СЃ С…РѕР»РјР°", dbPubl2 });
+		auto book7 = unique_ptr <Book>(new Book{ "РўР РРќРРўР РћРўРћР›РЈРћР›", dbPubl3 });
+		auto book8 = unique_ptr <Book>(new Book{ "РћРЅ", dbPubl3 });
+		auto book9 = unique_ptr <Book>(new Book{ "РћСЂР±РёСЃ", dbPubl3 });
 
 		Wt::Dbo::ptr<Book> dbbook1 = session.add<Book>(move(book1));
 		Wt::Dbo::ptr<Book> dbbook2 = session.add<Book>(move(book2));
@@ -144,9 +144,9 @@ int main()
 		Wt::Dbo::ptr<Book> dbbook8 = session.add<Book>(move(book8));
 		Wt::Dbo::ptr<Book> dbbook9 = session.add<Book>(move(book9));
 
-		auto shop1 = unique_ptr <Shop>(new Shop{ "Читай-город" });
-		auto shop2 = unique_ptr <Shop>(new Shop{ "Лабиринт" });
-		auto shop3 = unique_ptr <Shop>(new Shop{ "Литрес" });
+		auto shop1 = unique_ptr <Shop>(new Shop{ "Р§РёС‚Р°Р№-РіРѕСЂРѕРґ" });
+		auto shop2 = unique_ptr <Shop>(new Shop{ "Р›Р°Р±РёСЂРёРЅС‚" });
+		auto shop3 = unique_ptr <Shop>(new Shop{ "Р›РёС‚СЂРµСЃ" });
 
 		Wt::Dbo::ptr<Shop> dbshop1 = session.add<Shop>(move(shop1));
 		Wt::Dbo::ptr<Shop> dbshop2 = session.add<Shop>(move(shop2));
@@ -202,7 +202,7 @@ int main()
 		Wt::Dbo::Transaction t2{ session };
 
 		string in;
-		cout << "Введите наименование или ID издателя: ";
+		cout << "Р’РІРµРґРёС‚Рµ РЅР°РёРјРµРЅРѕРІР°РЅРёРµ РёР»Рё ID РёР·РґР°С‚РµР»СЏ: ";
 		cin >> in;
 
 		Wt::Dbo::ptr<Publisher> publishers;
@@ -219,7 +219,7 @@ int main()
 		if (publishers)
 		{
 
-			cout << "Издатель найден, это: " << publishers->name << endl;
+			cout << "РР·РґР°С‚РµР»СЊ РЅР°Р№РґРµРЅ, СЌС‚Рѕ: " << publishers->name << endl;
 			set<string> shopNames;
 
 			for (const auto& books : publishers->books)
@@ -229,7 +229,7 @@ int main()
 					shopNames.insert(stocks->shops->name);
 				}
 			}
-			cout << "Магазины, в которых продают книги этого издателя: " << endl;
+			cout << "РњР°РіР°Р·РёРЅС‹, РІ РєРѕС‚РѕСЂС‹С… РїСЂРѕРґР°СЋС‚ РєРЅРёРіРё СЌС‚РѕРіРѕ РёР·РґР°С‚РµР»СЏ: " << endl;
 			int count_shop{ 0 };
 			for (const auto& outNames : shopNames)
 			{
@@ -239,7 +239,7 @@ int main()
 		}
 		else
 		{
-			cout << "Издатель не найден" << endl;
+			cout << "РР·РґР°С‚РµР»СЊ РЅРµ РЅР°Р№РґРµРЅ" << endl;
 		}
 		t2.commit();
 	}
